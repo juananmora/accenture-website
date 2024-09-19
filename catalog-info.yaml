@@ -1,0 +1,15 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: accenture-website
+  title: Accenture-website
+  description: A static HTML website. Just like the good old days.
+  links:
+    - url: https://juananmora.github.io/accenture-website/
+      title: Live website
+  annotations:
+    github.com/project-slug: juananmora/accenture-website
+spec:
+  type: website
+  owner: user:dtuite
+  lifecycle: experimental
